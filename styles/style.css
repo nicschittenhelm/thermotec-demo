@@ -1,0 +1,135 @@
+#logo-new h3 {
+    font-family: "Arial", sans-serif;
+    font-weight: 600;
+    font-size: 8rem;
+    margin: 0;
+    line-height: normal;
+}
+
+#logo-new h4 {
+    font-weight: 400;
+    font-size: 2.0rem;
+    color: #f39100;
+    text-transform: uppercase;
+    line-height: normal;
+    margin: 0;
+}
+
+.logo-container {
+    margin-top: 15vh;
+}
+
+ @media screen and (max-width: 992px) {
+    #logo-new h3 {
+        font-size: 12vw;
+    }
+    #logo-new h4 {
+        font-size: 3vw;
+    }
+    
+}
+
+#logo-new:hover {
+    text-decoration: none;
+    color: inherit;
+}
+#logo-new:visited {
+    color: initial;
+}
+
+.nk-logo {
+    width: 300px !important;
+    height: auto; 
+}
+
+ul {
+    line-height: 1.5rem;
+    color: #505050;
+}
+
+.icon {
+    height: 16px;
+    width: 16px;
+}
+
+
+.link-container {
+    position: relative;
+    width: 120%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+    color: #505050;
+    list-style: none;
+}
+
+.text-center {
+    padding: 0;
+}
+
+#alt-h3 {
+    font-weight: 800;
+    font-size: 8rem;
+    line-height: 0%;
+    margin-top: 50px;
+}
+
+#alt-h4 {
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 1;
+    color: #f39100;
+}
+
+.animated-svg {
+    animation: mymove 2s infinite ease-in-out;
+}
+  
+@keyframes mymove {
+    0% {
+    margin-left: 0px;
+    }
+    50% {
+        margin-left: 5px;
+    }
+    100% {
+        margin-left: 0px;
+    }
+}
+
+.hero-container {
+    height: auto !important;
+}
+
+.gallery {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    padding: 24px;
+}
+
+.col-links {
+    flex: 1;
+}
+
+.col-links p {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.col-rechts {
+    flex: 3;
+}
+
+@media (max-width: 600px) {
+    .gallery {
+      flex-direction: column;
+    }
+
+    .col-links {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }

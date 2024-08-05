@@ -1,0 +1,1 @@
+"use strict";[].forEach.call(document.getElementsByClassName("js-MailTo"),function(t){var a=t.getAttribute("data-mailto-user")+"@"+(t.getAttribute("data-mailto-domain")||window.location.host);t.setAttribute("href","mailto:"+a),t.innerHTML=a});
